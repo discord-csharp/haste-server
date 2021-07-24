@@ -10,7 +10,7 @@ textarea {
 	background: transparent;
 	border: 0px;
 	color: #fff;
-	padding: 0px;
+	padding: 5px 0 0 0;
 	width: 100%;
 	height: 100%;
 	font-family: monospace;
@@ -27,7 +27,7 @@ textarea {
   color: #7d7d7d;
 	z-index: -1000;
 	position: absolute;
-	top: 20px;
+	top: 25px;
 	left: 0px;
 	width: 30px; /* 30 to get 20 away from box */
 	font-size: 13px;
@@ -39,7 +39,7 @@ textarea {
 /* code box when locked */
 
 #box {
-	padding: 0px;
+	padding: 5px 0 0 0;
 	margin: 0px;
 	width: 100%;
 	border: 0px;
@@ -156,6 +156,7 @@ textarea {
 
 #messages {
 	position:fixed;
+
 	top:0px;
 	right:138px;
 	margin:0;
@@ -173,3 +174,27 @@ textarea {
 	background:rgba(102,8,0,0.8);
 }
 
+#banner {
+	position: fixed;
+	background:rgba(255, 255, 203, 0.8);
+	top:-12px;
+	left:-30px;
+	width:100%;
+	height:20px;
+	font-family: monospace;
+}
+#banner ul {
+	padding: 0 ;
+	list-style-type: none;
+	list-style: none;
+	margin-block-start: 0;
+	margin-block-end: 0;
+}
+#banner li {
+	margin:0;
+	padding: 0;
+	list-style:none;
+}
+#banner li span {
+	font-style: italic;
+}
